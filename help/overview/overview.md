@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 source-git-commit: 83cc6dccc20323efc96a09ee1bfda0aa38e52009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,6 +38,6 @@ Zu den wichtigsten Vorteilen gehören:
 <tr style="border: 0; text-align: center;">
 <td><a href="../start/experiment-accelerator-access.md"><img width="70%" alt="Erste Schritte" src="../assets/do-not-localize/a-b-test.png"></a><br/><a href="../start/experiment-accelerator-access.md">Erste Schritte mit Journey Optimizer Experimentation Accelerator</a></td>
 <td><a href="../start/experiment-accelerator-best-practices.md"><img width="70%" alt="Best Practices" src="../assets/do-not-localize/best-practices.png"></a><br/><a href="../start/experiment-accelerator-best-practices.md">Best Practices für Journey Optimizer Experimentation Accelerator</a></td>
-<td><a href="../track/experiment-accelerator-monitor.md"><img width="70%" alt="track" src="../assets/do-not-localize/track.png"></a></br><a href="../track/experiment-accelerator-monitor.md">Nachverfolgen und Überwachen der Leistung Ihrer Experimente</a></td>
+<td><a href="../track/experiment-accelerator-monitor.md"><img width="70%" alt="Nachverfolgen" src="../assets/do-not-localize/track.png"></a></br><a href="../track/experiment-accelerator-monitor.md">Nachverfolgen und Überwachen der Leistung von Experimenten</a></td>
 </tr>
 </table>

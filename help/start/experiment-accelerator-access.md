@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 source-git-commit: b85ae521647894c7dcc77f8f192d9bea650a07dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Der Zugriff auf **[!UICONTROL Journey Optimizer Experimentation Accelerator]** e
 
 ![](assets/access.png)
 
-Die verfügbaren Experimente hängen von Ihrer Einrichtung ab:
+Die verfügbaren Experimente hängen von Ihrem Setup ab:
 
 * **Für Benutzende, die Adobe Journey Optimizer verwenden**: Experimente, die in der Sandbox Ihrer aktivierten Organisation eingerichtet wurden, werden automatisch einbezogen.
 
@@ -55,7 +55,7 @@ So weisen Sie diese Rolle neuen Benutzenden zu:
 
 1. Geben Sie den Namen und die E-Mail-Adresse der Benutzerin oder des Benutzers ein oder wählen Sie aus der Liste aus und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
-   Wenn der Benutzer vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
+   Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 Die Benutzerin oder der Benutzer erhält eine E-Mail mit Anweisungen zum Zugriff auf Ihre Instanz.
 

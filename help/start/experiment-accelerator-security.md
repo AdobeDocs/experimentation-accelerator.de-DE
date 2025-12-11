@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 source-git-commit: c52010f196f46d234066fd34ae8e9c0be7d2148b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Jede Kundin bzw. jeder Kunde wird einer bestimmten Organisation und Sandbox zuge
 
 ## Ändern Adobe-Modelle oder KI das Anwendererlebnis einer Marke automatisch?
 
-Nein. **Journey Optimizer Experimentation Accelerator** gibt nur Empfehlungen dazu, was geändert werden könnte und wie dies geändert werden könnte. Nur Benutzende, die berechtigt sind, das Erlebnis mithilfe von Journey Optimizer oder Target zu ändern, können diese Empfehlungen umsetzen. Alle Empfehlungen können überprüft und bearbeitet werden, bevor sie bereitgestellt werden.
+Nein. **Journey Optimizer Experimentation Accelerator** empfiehlt nur, was geändert werden könnte und wie dies geändert werden könnte. Nur Benutzende, die berechtigt sind, das Erlebnis mithilfe von Journey Optimizer oder Target zu ändern, können diese Empfehlungen umsetzen. Alle Empfehlungen können überprüft und bearbeitet werden, bevor sie bereitgestellt werden.
 
 ## Besteht ein Risiko für die Daten- oder Systemstabilität?
 

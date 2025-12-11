@@ -1,11 +1,11 @@
 ---
 user-guide-title: Experimentation Accelerator
-breadcrumb-title: Experimentationsbeschleuniger
-user-guide-description: Verwenden Sie den Experimentbeschleuniger, um Ihre Experimente zu verfolgen und zu überwachen
+breadcrumb-title: Experimentation Accelerator
+user-guide-description: Verwenden von Experimentation Accelerator zum Verfolgen und Überwachen von Experimenten
 source-git-commit: 83cc6dccc20323efc96a09ee1bfda0aa38e52009
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '39'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
