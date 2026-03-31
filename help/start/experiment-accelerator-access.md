@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
-source-git-commit: b85ae521647894c7dcc77f8f192d9bea650a07dc
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 4f30411591ab3bec4b749cfb58f437ddb3474ffa
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 64%
 
 ---
 
@@ -35,7 +35,7 @@ Um **[!UICONTROL Journey Optimizer Experimentation Accelerator]** verwenden zu k
 * **[!UICONTROL Experimente anzeigen]**
 * **[!UICONTROL Metadaten zu Experimenten verwalten]**
 
-+++ Informationen zur Zuweisung von Berechtigungen für Experimente
++++ Erfahren Sie, wie Sie experimentbezogene Berechtigungen mit einer Adobe Experience Platform- oder Adobe Journey Optimizer-Lizenz zuweisen
 
 1. Navigieren Sie im Produkt **[!DNL Permissions]** zur Registerkarte **[!UICONTROL Rollen]** und wählen Sie die gewünschte **[!UICONTROL Rolle]** aus.
 
@@ -58,6 +58,48 @@ So weisen Sie diese Rolle neuen Benutzenden zu:
    Wenn die Benutzerin bzw. der Benutzer vorher noch nicht erstellt wurde, lesen Sie [diese Dokumentation](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 Die Benutzerin oder der Benutzer erhält eine E-Mail mit Anweisungen zum Zugriff auf Ihre Instanz.
+
++++
+
+</br>
+
++++ Erfahren Sie, wie Sie mit der Adobe Target-Lizenz experimentbezogene Berechtigungen zuweisen
+
+1. Öffnen Sie die **[Admin Console](http://adminconsole.adobe.com/)**.
+
+1. Wählen Sie **[!UICONTROL Produkte]** die Option **[!UICONTROL Adobe Experience Platform]**.
+
+1. Klicken Sie auf **[!UICONTROL Neues Profil]**.
+
+   ![](assets/permission-target.png)
+
+1. Geben Sie **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** für das Profil ein und klicken Sie dann auf **[!UICONTROL Speichern]**.
+
+1. Öffnen Sie das neu erstellte **[!UICONTROL Profil]** und navigieren Sie zur Registerkarte **[!UICONTROL Berechtigungen]** .
+
+1. Klicken Sie ![](assets/do-not-localize/Smock_Edit_18_N.svg) neben der Berechtigung **[!UICONTROL Experimentier-Beschleuniger]**.
+
+   ![](assets/permission-target-1.png)
+
+1. Fügen Sie die Berechtigungen hinzu, über die dieses Profil verfügen soll, z **[!UICONTROL B. &quot;]** anzeigen“ und **[!UICONTROL Experimentmetadaten verwalten]** und klicken Sie dann auf **[!UICONTROL Speichern]**.
+
+   >[!TIP]
+   >
+   > Erstellen Sie separate Profile, wenn Benutzende unterschiedliche Zugriffsebenen benötigen. Erstellen Sie beispielsweise ein **[!UICONTROL Experimentation Accelerator Viewer]**-Profil mit nur **[!UICONTROL Experimente anzeigen]** und ein **[!UICONTROL Experimentation Accelerator Editor]**-Profil mit **[!UICONTROL Experimente anzeigen]** und **[!UICONTROL Experimentmetadaten verwalten]**.
+
+   ![](assets/permission-target-2.png)
+
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** die Option **[!UICONTROL Sandboxes]** aus.
+
+1. Fügen Sie die Sandboxes hinzu, in denen Benutzer Journey Optimizer Experimentation Accelerator verwenden können sollen, und klicken Sie dann auf **[!UICONTROL Speichern]**.
+
+1. Öffnen Sie die Registerkarte **[!UICONTROL Benutzer]** und klicken Sie auf **[!UICONTROL Benutzer hinzufügen]**.
+
+   ![](assets/permission-target-3.png)
+
+1. Fügen Sie die Benutzer hinzu, die diesen Zugriff erhalten sollen, und klicken Sie dann auf **[!UICONTROL Speichern]**.
+
+Benutzende, die zu diesem Profil hinzugefügt wurden, können jetzt über den App Switcher auf Journey Optimizer Experimentation Accelerator zugreifen.
 
 +++
 
