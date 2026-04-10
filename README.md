@@ -1,8 +1,8 @@
 ---
 source-git-commit: 862c4dc768f62c0aae7ae27c9498fcf8269db737
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 93%
 
 ---
 # Artikel beitragen
@@ -26,8 +26,8 @@ Für dieses Projekt gilt der [Adobe Open Source-Verhaltenskodex](code-of-conduct
 Wenn Sie eine geringfügige Aktualisierung beitragen:
 
 1. Navigieren Sie zu dem Thema, das Sie bearbeiten möchten.
-1. Klicken Sie im Banner „War dieser Inhalt hilfreich?“ unten im Browser-Fenster auf **Detaillierte Feedback-Optionen**.
-1. Klicken Sie auf **Änderung vorschlagen** und senden Sie einen Pull-Request (PR) mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
+1. Klicken Sie im Banner „War dieser Inhalt hilfreich?“ Ein Banner, das unten in Ihrem Browser-Fenster angezeigt wird, klicken Sie auf **Detaillierte Feedback-Optionen**.
+1. Klicken Sie **Bearbeiten vorschlagen** und senden Sie eine Pull-Anfrage (PR) mit Ihren Änderungen in der GitHub-Benutzeroberfläche.
 
    Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=de).
 
@@ -47,18 +47,18 @@ Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://ex
 
 ## Interne Mitwirkende
 
-Wenn Sie in der technischen Redaktion, im Programm-Management oder in der Produktentwicklung für eine Adobe Experience Cloud-Lösung arbeiten und es Ihre Aufgabe ist, an technischen Artikeln mitzuwirken bzw. diese zu verfassen, verwenden Sie das [private Repository](https://git.corp.adobe.com/AdobeDocs). 
+Wenn Sie in der technischen Redaktion, im Programm-Management oder in der Produktentwicklung für eine Adobe Experience Cloud-Lösung arbeiten und es Ihre Aufgabe ist, an technischen Artikeln mitzuwirken bzw. diese zu verfassen, verwenden Sie das [private Repository](https://git.corp.adobe.com/AdobeDocs).
 
 ## Formatieren Ihres Artikels
 
 Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie mit Markdown nicht vertraut sind, finden Sie weitere Informationen dazu unter:
 
 * [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Druckbares Markdown-Cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Druckbare Markdown-Anleitung](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Labels
+## Beschriftungen
 
-Im öffentlichen Repository werden automatisierte Labels Pull-Anfragen zugewiesen, damit wir den Workflow für Pull-Anfragen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anfrage passiert:
+Im öffentlichen Repository werden automatisierte Bezeichnungen Pull-Anforderungen zugewiesen, damit wir den Arbeitsablauf für Pull-Anforderungen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anforderung passiert:
 
 * **Change sent to author**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
 * **ready-to-merge**: Bereit zur Überprüfung durch unser Pull-Anforderung-Überprüfungsteam.
