@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: Inhalt, Experiment, mehrere, Zielgruppe, Abwandlung
 source-git-commit: 020ed6c652c66ed78789a5a90dfc8c8dece624a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -85,11 +85,11 @@ Beispiel: _Wir glauben, dass eine Änderung von X den Wert Y wegen Z erhöhen wi
 Ein gutes Experiment führt nicht nur zu einem Erfolg, sondern auch zu einem klaren, verwertbaren Lernen.
 Achten Sie auf Folgendes:
 
-&check; **Statistische Konfidenz**: Der Unterschied zwischen Varianten ist wahrscheinlich nicht zufällig.
-&check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt einen bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
-&check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
-&check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
-&check; **Klarheit**: Die Ursache des Ergebnisses ist relativ isoliert und verstanden.
+&amp;check; **Statistische Konfidenz**: Der Unterschied zwischen den Varianten ist wahrscheinlich nicht zufällig.
+&amp;check; **Ausrichtung an Zielen**: Die primäre Metrik spiegelt bedeutenden Fortschritt bei der Erreichung eines Geschäftsziels wider.
+&amp;check; **Sekundäre Auswirkung**: Keine signifikanten negativen Auswirkungen auf zugehörige Metriken.
+&amp;check; **Skalierbarkeit**: Das Ergebnis kann für zukünftige Entscheidungen genutzt oder auf andere Bereiche verallgemeinert werden.
+&amp;check; **Klarheit**: Die Ursache des Ergebnisses ist relativ gut isoliert und bekannt.
 
 Beim Experimentieren geht es nicht nur darum, die „beste“ Variante zu finden, sondern auch darum, durch Tests und Iterationen Wissen aufzubauen. Gut durchgeführte Experimente liefern Erkenntnisse, die zu intelligenteren Entscheidungen, besseren Anwendererlebnissen und optimierten Ergebnissen führen.
 
