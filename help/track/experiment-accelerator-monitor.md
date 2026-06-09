@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 659a4723ac8b7cbaf3ea06c34107bf876612ccb4
+source-git-commit: c07dc7f896f9c65980339f4a7fc94123fa8afe71
 workflow-type: tm+mt
-source-wordcount: 1141
-ht-degree: 100%
+source-wordcount: 1367
+ht-degree: 79%
 
 ---
 
@@ -38,8 +38,8 @@ Auf der Registerkarte **[!UICONTROL Experimente]** werden das Tracking und die A
 
 ## Dashboard {#dashboard}
 
-Beim Zugriff auf die Registerkarte „Experimente“ werden alle verfügbaren Experimente aus Journey Optimizer und Adobe Target in einer konsolidierten Ansicht aufgeführt. So können Sie Experimente in beiden Plattformen an einem Ort schnell überprüfen und vergleichen.
-Die Liste „Experimente“ enthält:
+Beim Zugriff auf die Registerkarte Experimente werden alle verfügbaren Experimente aus Journey Optimizer und Adobe Target in einer konsolidierten Ansicht aufgelistet. Auf diese Weise können Sie Experimente auf beiden Plattformen an einem Ort schnell überprüfen und vergleichen.
+Die Liste Experimente enthält:
 
 * Journey Optimizer-Experimente, die entweder in Kampagnen oder Journeys erstellt wurden.
 
@@ -62,6 +62,7 @@ Um Ihre Experimente aufzurufen und zu überwachen, wählen Sie Ihr zuvor konfigu
 Die Seite mit den Experimentdetails ist in die folgenden Abschnitte unterteilt:
 
 * [Resultat des Experiments](#experiment-outcome)
+* [Primäre Metrik](#change-primary-metric)
 * [Hypothese](#hypothesis)
 * [Details](#details)
 * [Opportunities](#opportunities)
@@ -73,6 +74,42 @@ Die Seite mit den Experimentdetails ist in die folgenden Abschnitte unterteilt:
 ![](assets/experiment-monitor-outcome.png)
 
 Das **[!UICONTROL Resultat des Experiments]** bietet Ihnen einen schnellen Überblick über die erfolgreichste Variante in Ihrem Experiment.
+
+### Primäre Metrik ändern {#change-primary-metric}
+
+>[!AVAILABILITY]
+>
+>Nur Benutzer mit der Berechtigung **[!UICONTROL Experimentmetadaten verwalten]** können die primäre Metrik ändern.
+
+Das Ändern der primären Metrik gilt für Teams, die **[!DNL Customer Journey Analytics]** oder **[!DNL Adobe Analytics]** als Berichtsquelle für in **[!DNL Adobe Target]** oder **[!DNL Adobe Journey Optimizer]** erstellte Experimente verwenden.
+
+Beachten Sie Folgendes, wenn Sie die primäre Metrik festlegen oder ändern:
+
+* Sie importieren jeweils nur eine Metrik. Ihre Auswahl wird als primäre Metrik für dieses Experiment gespeichert.
+
+* Aktualisierungen werden nur in Journey Optimizer Experimentation Accelerator angewendet. Sie werden nicht an Adobe Target oder Adobe Journey Optimizer zurückgeschrieben.
+
+* Wenn Ihr Unternehmen nur Adobe Target als Berichtsquelle verwendet, können Sie die primäre Metrik nach der Veröffentlichung des Tests nicht mehr ändern.
+
+Gehen Sie wie folgt vor, um die primäre Metrik für ein vorhandenes Experiment zu ändern:
+
+1. Klicken Sie in Ihrem Experiment auf **[!UICONTROL Primäre Metrik auswählen]** wenn keine zugewiesen wurde, oder **[!UICONTROL Bearbeiten]**, wenn Sie sie ändern möchten.
+
+   ![](assets/primary-metric-1.png)
+
+1. Wählen Sie eine Metrik aus, die mit der Berichtsquellenmenge übereinstimmt, die zum Zeitpunkt der Erstellung dieses Experiments in **[!DNL Adobe Target]** oder **[!DNL Adobe Journey Optimizer]** festgelegt wurde.
+
+   Die für Sie verfügbaren Metriken werden durch die Datenquelle bestimmt, die in **[!DNL Adobe Target]** oder **[!DNL Adobe Journey Optimizer]** konfiguriert ist. Wenn beispielsweise **[!DNL Customer Journey Analytics]** (CJA) als Berichtsquelle in Target ausgewählt wurde, sind nur CJA-Metriken zum Importieren verfügbar. Sie können nicht zu einer Metrik aus einer anderen Datenquelle wechseln und die primäre Metrik nicht in eine native **[!DNL Adobe Target]** Metrik ändern.
+
+1. Verwenden Sie die Suche, um eine Metrik anhand des Namens zu finden, oder verwenden Sie den Filter, um Metriken anzuzeigen, die bereits in aktiven Experimenten verwendet werden.
+
+   ![](assets/primary-metric-1.png)
+
+1. Speichern Sie Ihre Auswahl.
+
+Wenn Sie die primäre Metrik ändern, werden zuvor generierte Einblicke und Opportunitys gelöscht und neu generiert. Während der Regenerierung wird die folgende Meldung angezeigt:
+
+`Opportunities are being regenerated based on the selected metric. Updates will appear soon.`
 
 ### Einrichten {#set-up}
 
