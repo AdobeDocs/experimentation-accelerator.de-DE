@@ -3,9 +3,9 @@ user-guide-title: Experimentation Accelerator
 breadcrumb-title: Experimentation Accelerator
 user-guide-description: Verwenden von Experimentation Accelerator zum Verfolgen und Überwachen von Experimenten
 source-git-commit: 6c8e2f6297a649e103dea9d5f4d3ff4c0fbf2aa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '45'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
